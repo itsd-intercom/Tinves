@@ -1,0 +1,2 @@
+[29-Apr-2023 07:36:23 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/toyp4144/public_html/tinves/Inventory/vendor/composer/platform_check.php on line 24
+[29-Apr-2023 07:36:24 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/toyp4144/public_html/tinves/Inventory/vendor/composer/platform_check.php on line 24
