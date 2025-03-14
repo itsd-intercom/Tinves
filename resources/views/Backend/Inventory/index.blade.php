@@ -62,6 +62,7 @@
                             <th>Jabatan</th>
                             <th>Divisi</th>
                             <th>Lokasi</th>
+                            <th>Hostname</th>
                             <th width="3%">ID Anydesk</th>
                             <th width="4%" class="text-center">Action</th>
                         </tr>
@@ -86,6 +87,7 @@
                 {data: 'user.jabatan', name: 'user.jabatan'},
                 {data: 'divisi.nama', name: 'divisi.nama'},
                 {data: 'lokasi.nama', name: 'lokasi.nama'},
+                {data: 'hostname', name: 'hostname'},
                 {data: 'anydeskid', name: 'anydeskid', render: function(data, type, row) {
                     return '<div class="d-flex align-items-left">' +
                         '<div class="me-2">' +
@@ -109,7 +111,7 @@
                 var actionBtns = '<a href="/InventarisEdit-' + data.id + '" class="btn btn-success btn-sm mr-2" style="margin-right: 4px;"> <i class="fas fa-edit"></i></a>' +
                                  '<a href="/InventarisDelete-' + data.id + '" class="btn btn-danger btn-sm" style="margin-right: 4px;"> <i class="fas fa-trash-alt"></i></a>' +
                                  '<a href="/InventarisDetails-' + data.id + '" class="btn btn-info btn-sm" style="margin-right: 4px;"> <i class="fa thin fa-info"></i></a>';
-                $('td:eq(7)', row).html(actionBtns);
+                $('td:eq(8)', row).html(actionBtns);
             }
         });
     });
